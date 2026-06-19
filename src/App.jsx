@@ -69,7 +69,7 @@ function App() {
             <div className="space-y-6">
               <article className="overflow-hidden rounded-2xl border border-zinc-800 bg-zinc-900/50 shadow-[0_0_40px_rgba(34,211,238,0.08)] backdrop-blur-sm transition hover:border-cyan-400/50 hover:shadow-[0_0_60px_rgba(34,211,238,0.15)]">
                 <img
-                  src="public\images\Screenshot 2026-05-19 192630.png"
+                  src="public/images/Screenshot 2026-05-19 192630.png"
                   alt="Proda-Mont"
                   className="h-[250px] w-full object-cover"
                 />
@@ -99,7 +99,7 @@ function App() {
 
               <article className="overflow-hidden rounded-2xl border border-zinc-800 bg-zinc-900/50 shadow-[0_0_40px_rgba(34,211,238,0.08)] backdrop-blur-sm transition hover:border-cyan-400/50 hover:shadow-[0_0_60px_rgba(34,211,238,0.15)]">
                 <img
-                  src="public\images\Screenshot 2026-05-19 214133.png"
+                  src="public/images/Screenshot 2026-05-19 214133.png"
                   alt="Proda-Mont"
                   className="h-[250px] w-full object-cover"
                 />
