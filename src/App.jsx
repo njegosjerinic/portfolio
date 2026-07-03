@@ -137,6 +137,15 @@ function App() {
                   user authentication and reservation validation.
                 </p>
 
+                <a
+                  href="https://mini-booking-app-oc8z.onrender.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="mt-6 inline-flex items-center rounded-full border border-cyan-400 px-5 py-2 text-sm font-semibold text-cyan-300 transition hover:bg-cyan-400 hover:text-zinc-950"
+                >
+                  Visit Website
+                </a>
+
                 <div className="mt-4 flex flex-wrap gap-2 text-sm text-cyan-300">
                   <span>Laravel</span>
                   <span>React</span>
