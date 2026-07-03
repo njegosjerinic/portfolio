@@ -137,6 +137,12 @@ function App() {
                   user authentication and reservation validation.
                 </p>
 
+                <div className="mt-4 flex flex-wrap gap-2 text-sm text-cyan-300">
+                  <span>Laravel</span>
+                  <span>React</span>
+                  <span>MySQL</span>
+                </div>
+
                 <a
                   href="https://mini-booking-app-oc8z.onrender.com/"
                   target="_blank"
@@ -145,12 +151,6 @@ function App() {
                 >
                   Visit Website
                 </a>
-
-                <div className="mt-4 flex flex-wrap gap-2 text-sm text-cyan-300">
-                  <span>Laravel</span>
-                  <span>React</span>
-                  <span>MySQL</span>
-                </div>
               </article>
 
               <article className="rounded-2xl border border-zinc-800 bg-zinc-900/50 p-6 transition hover:border-cyan-400/50">
