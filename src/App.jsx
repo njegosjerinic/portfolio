@@ -1,3 +1,5 @@
+import ContactForm from "./components/ContactForm";
+
 function App() {
   return (
     <main className="min-h-screen bg-zinc-950 text-zinc-100">
@@ -36,7 +38,7 @@ function App() {
             </nav>
           </div>
 
-          <div className="mt-10 flex gap-5 text-zinc-400 lg:mt-0">
+          <div className="mt-10 flex flex-col gap-5 text-zinc-400 lg:mt-0">
             <a
               href="https://github.com/njegosjerinic"
               className="hover:text-white"
@@ -53,9 +55,9 @@ function App() {
 
             <a
               href="mailto:njegos.jerinic@gmail.com"
-              className="hover:text-white"
+              className="hover:text-white break-all"
             >
-              Email
+              njegos.jerinic@gmail.com
             </a>
           </div>
         </aside>
@@ -251,12 +253,7 @@ function App() {
               fullstack development projects.
             </p>
 
-            <a
-              href="mailto:njegos.jerinic@gmail.com"
-              className="mt-8 inline-block rounded-full bg-cyan-400 px-6 py-3 font-semibold text-zinc-950 transition hover:bg-cyan-300"
-            >
-              Contact Me
-            </a>
+            <ContactForm />
           </section>
         </section>
       </div>

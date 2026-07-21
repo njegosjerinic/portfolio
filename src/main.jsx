@@ -4,7 +4,9 @@ import { inject } from "@vercel/analytics";
 import "./index.css";
 import App from "./App.jsx";
 
-inject();
+if (import.meta.env.PROD) {
+  inject();
+}
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
