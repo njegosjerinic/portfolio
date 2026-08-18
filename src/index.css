@@ -1,1 +1,46 @@
 @import "tailwindcss";
+
+:root { font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-synthesis: none; text-rendering: optimizeLegibility; }
+html { scroll-behavior: smooth; }
+body { margin: 0; min-width: 320px; }
+.font-serif { font-family: Georgia, "Times New Roman", serif; }
+.font-mono { font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace; }
+.paper-grid { background-image: linear-gradient(rgba(23,23,23,.045) 1px,transparent 1px),linear-gradient(90deg,rgba(23,23,23,.045) 1px,transparent 1px); background-size: 36px 36px; }
+@keyframes rise-in { from { opacity: 0; transform: translateY(24px); } to { opacity: 1; transform: translateY(0); } }
+.rise-in { animation: rise-in 750ms cubic-bezier(.22,1,.36,1) both; }
+.rise-in-delayed { animation: rise-in 750ms 130ms cubic-bezier(.22,1,.36,1) both; }
+.project-art { transition: transform 350ms cubic-bezier(.22,1,.36,1),box-shadow 350ms ease; }
+article:hover .project-art { transform: translate(-3px,-3px); box-shadow: 9px 9px 0 rgba(23,23,23,.14); }
+
+@media (max-width: 639px) {
+  .site-header { position: sticky; top: 0; z-index: 50; background: rgba(243,239,228,.92); backdrop-filter: blur(12px); }
+  .site-header > div { padding-top: 1rem; padding-bottom: 1rem; }
+  .site-header > div > a:first-child { max-width: 9rem; font-size: .68rem; line-height: 1.25; }
+  .hero > div { padding-top: 3.5rem; padding-bottom: 3.5rem; }
+  .hero-title { max-width: 19rem; font-size: 3.45rem; line-height: .86; letter-spacing: -.055em; }
+  .hero-copy { margin-top: 1.5rem; font-size: 1rem; line-height: 1.65; }
+  .paper-grid { background-size: 24px 24px; }
+  .work-section { padding-top: 4.5rem; padding-bottom: 4.5rem; }
+  .work-section > div:first-child { margin-bottom: 2.5rem; }
+  .work-section h2 { font-size: 2.7rem; line-height: 1; }
+  .project-list { --tw-space-y-reverse: 0; }
+  .project-list > :not(:last-child) { margin-bottom: 4.5rem; }
+  .project-art { min-height: 16rem; }
+  .project-art > div { transform: scale(.84); }
+  article:hover .project-art { transform: none; box-shadow: none; }
+  .project-title { font-size: 2.8rem; line-height: 1; }
+  .project-copy { font-size: 1rem; line-height: 1.7; }
+  .project-links { flex-wrap: wrap; gap: 1.25rem; }
+  .project-links a { min-height: 2.75rem; align-items: center; }
+  .about-section > div { gap: 2.5rem; padding-top: 4.5rem; padding-bottom: 4.5rem; }
+  .about-section h2 { font-size: 2.9rem; }
+  .about-section p.text-xl { font-size: 1.05rem; line-height: 1.75; }
+  .client-section > div { padding-top: 4rem; padding-bottom: 4rem; }
+  .client-heading span { display: none; }
+  .client-section img { height: 11rem; }
+  .contact-section { gap: 2.5rem; padding-top: 4.5rem; padding-bottom: 4.5rem; }
+  .contact-title { font-size: 3rem; }
+  .contact-section form { padding: 1.25rem; box-shadow: 5px 5px 0 #ed5b3a; }
+}
+
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } .rise-in,.rise-in-delayed { animation: none; } .project-art,article:hover .project-art { transition: none; transform: none; } }
