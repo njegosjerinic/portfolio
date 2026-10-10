@@ -139,21 +139,17 @@ function App() {
 
       <section
         id="top"
-        className="hero paper-grid overflow-hidden border-b border-black/20"
+        className="hero paper-grid overflow-hidden border-b border-black/20 h-150 flex align-middle justify-center"
       >
         <div className="mx-auto grid max-w-7xl px-5 py-16 sm:px-8 sm:py-24 lg:grid-cols-[1.45fr_0.55fr] lg:gap-16 lg:px-12 lg:py-28">
           <div className="rise-in">
-            <p className="mb-5 flex items-center gap-3 font-mono text-xs font-bold uppercase tracking-[0.18em]">
-              <span className="h-2.5 w-2.5 rounded-full bg-[#ed5b3a]" /> Open to
-              engineering roles
-            </p>
             <h1 className="hero-title max-w-5xl font-serif text-[clamp(3.8rem,9vw,8rem)] leading-[0.82] tracking-[-0.065em]">
               I build software that holds up.
             </h1>
             <p className="hero-copy mt-8 max-w-2xl text-lg leading-8 text-black/65 sm:text-xl">
-              Backend-minded software engineer working across Laravel,
-              TypeScript and React. I like clear systems, difficult bugs and
-              products that do something useful.
+              Backend-minded software engineer working across Laravel and React.
+              I like clear systems, difficult bugs and products that do
+              something useful.
             </p>
           </div>
           <div className="rise-in-delayed mt-12 flex flex-col justify-end lg:mt-0">

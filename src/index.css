@@ -32,6 +32,9 @@ body {
   background-size: 36px 36px;
 }
 
+.task {
+}
+
 .task-link {
   opacity: 0;
   visibility: hidden;
@@ -47,6 +50,17 @@ body {
   opacity: 1;
   visibility: visible;
   transform: translateY(0);
+}
+
+@media (max-width: 649px) {
+  #task-container {
+    height: 50vh;
+  }
+
+  #task-container img {
+    height: 100% !important;
+    object-fit: cover;
+  }
 }
 
 @keyframes rise-in {
