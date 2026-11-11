@@ -23,7 +23,7 @@ export default function LatestTasks() {
       </div>
       <div className="relative" id="task-container">
         <img src={currentProject.image} alt="Computer Dashboard" />
-        <div className="absolute font-serif flex flex-col bottom-0.5 left-5 sm:text 4xl  sm:bottom-10 sm:left-10 text-white">
+        <div className="absolute font-serif flex flex-col bottom-0.5 left-5 sm:text 4xl  sm:bottom-10 sm:left-10 sm:right-10 text-white bg-black/40 p-3">
           <p className="md:text-3xl font-serif  uppercase mb-3">
             {currentProject.description}
           </p>
