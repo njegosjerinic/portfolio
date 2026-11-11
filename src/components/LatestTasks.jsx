@@ -3,11 +3,11 @@ import Arrow from "./Arrow";
 const currentProject = {
   title: "University thesis",
   description:
-    "Analysis of Reliability and Synchronization of Time-Sensitive Events in a Distributed Sports Scoring System",
-  state: "Phase 1: Project Setup and Planning",
-  date: "Oct 10",
-  link: "https://github.com/njegosjerinic/martial-arts-realtime-tracking",
-  image: "/images/thesis.png",
+    "Network Performance Analysis of Real-Time WebRTC Video Communication",
+  state: "Phase 2: Working Prototype and testing",
+  date: "Nov 11",
+  link: "https://github.com/njegosjerinic/webrtc-video-thesis",
+  image: "/images/diplomski.png",
 };
 
 export default function LatestTasks() {
