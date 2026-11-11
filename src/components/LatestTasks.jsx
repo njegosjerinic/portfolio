@@ -4,7 +4,7 @@ const currentProject = {
   title: "University thesis",
   description:
     "Network Performance Analysis of Real-Time WebRTC Video Communication",
-  state: "Phase 2: Working Prototype and testing",
+  state: "Phase 3: Working Prototype and testing",
   date: "Nov 11",
   link: "https://github.com/njegosjerinic/webrtc-video-thesis",
   image: "/images/diplomski.png",
